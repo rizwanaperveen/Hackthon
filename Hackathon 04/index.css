@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+h1{
+    font-size: 40px;
+}
+p,input{
+    margin: 4px;
+    padding: 5px;
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    height: 30px;
+    width: 60px;
+    border-radius: 6px;
+}
+#resumeOutput{
+    background: rgb(196, 188, 189);
+    color: black;
+    margin-top: 2px;
+    max-width: 600;
+    padding: 3px;
+    border: none;
+}
+#resumeOutput h2 {
+    color: slateblue;
+}

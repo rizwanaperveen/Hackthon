@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(143, 131, 133);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+p,input{
+    margin: 4px;
+    padding: 5px;
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    height: 30px;
+    width: 60px;
+    border-radius: 6px;
+}
+#toggle{
+    height: 50px;
+    width: 250px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    box-shadow: 0,0,30px,aqua;
+    background-color: #249865;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.resume{
+    background-color: bisque;
+    height: 100%;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.form{
+    margin-left: 60px;
+}
+#profile{
+    margin-left: 60px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    background-image: url("htpic2.png");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="resume">
+       <h1>Static Resume</h1>
+       <div class="form">
+       <label>
+        <p>Name
+    <input type="text" name="name"/></p>
+        <p>CNIC
+            <input type="text" name="number"/>
+        </p></label>
+        <label>
+        <p>Education
+            <input type="text" name="education"/></p></label>
+       <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Typescript</li>
+            <li>Javscript</li>
+            <li>Next.js</li>
+        </ul>
+    </section>
+            <button id="toggle">Hide/Show Skills</button>
+<div id="profile"></div>
+  <p>Contact
+    <input type="text" name="contact"/></p>
+    <p>Address
+    <input type="text" name="addresgs"/></p>
+    <p>Email
+    <input type="text" name="email"/></p>
+    <p>Git URL
+        <input type="URL" name="URL"/></p>
+
+    <p>Nationality
+        <select name="countries" multiple size="3" length="6"> Enter your country
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option> 
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="England">England</option>
+        </select></p>
+    
+</label>
+    <button id="sub" type="submit" value="submit" size="3" length="10">Submit</button> 
+    </div>   
+    </main>
+    <script src="index.js"></script>
+
+</body>
+</html>

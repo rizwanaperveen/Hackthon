@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="resume">
+        <form action="https://www.form.com/login.php" method="GET">
+    <div class="sb">
+        <h1>Editable Resume</h1>
+   <label>
+        <p>Name</p>
+    <input type="text" id="name"  name="name"/></label>
+    <label>
+        <p>CNIC</p>
+            <input type="text" id="cnic" name="number"/></label>
+        <label>
+        <p>Education</p>
+            <input type="text" id="education" name="education"/>
+        </label>
+        <label>
+            <p>Skills</p>
+                <input type="text" id="skills" name="skills"/>
+            </label>
+         <label>
+        <p>Contact</p>
+    
+    <input type="text" id="contact" name="contact" required/></label>
+<label>
+    <p>Address</p>
+    <input type="text" id="address" name="address"/></label>
+<label>
+    <p>Email</p>
+    <input type="text" id="email" name="email" reruired/></label>
+<label>
+    <p>Git URL</p>
+        <input type="URL" id="giturl" name="URL" required/></label>
+    <label>
+    <p>Nationality</p>
+        <select name="countries" multiple id="nationality"> Enter your country
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option> 
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="England">England</option>
+        </select></label>
+        <label>
+    <button type="submit" value="submit" size="3" length="10">Submit</button>
+</label>    
+</div>
+</form>
+    </main>
+    <br/>
+    <!--Resume will be generated-->
+    <div id="resumeOutput"></div>
+    <script src="index.js"></script>
+
+</body>
+</html>
