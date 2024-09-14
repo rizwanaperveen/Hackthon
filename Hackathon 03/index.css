@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(199, 173, 179);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+h1{
+    font-size: 40px;
+}
+form{
+    border: 2px solid grey;
+    width: 500px;
+    border-radius: 15px;
+}
+label{
+    display: flex;
+
+}
+input {
+    margin: 4px;
+    padding: 5px;
+    width: 400px;
+}
+textarea{
+    width: 400px;
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    height: 30px;
+    width: 60px;
+    border-radius: 6px;
+}
+#resumeOutput{
+    background: rgb(196, 188, 189);
+    color: black;
+    margin-left: 20px;
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+    align-content: center;
+}
+#resumeOutput h2 {
+    color: slateblue;
+}

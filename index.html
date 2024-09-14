@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone-05</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Interactive Resume</h1>
+    <form id="resumeForm">
+<fieldset>
+<legend>Personal Information</legend>
+<pre>
+        <label for="name">Name:</label>
+        <Input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <Input type="email" id="email" name="email" required />
+        <label for="phone">Phone:</label>
+        <Input type="phone" id="phone" name="phone" required />
+        <label for="profilepicture">Profile Picture:</label>
+        <Input type="file" id="profilePicture" name="profilePicture" required />
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education:</label>
+        <textarea id="education" name="education" rows="4" required></textarea>
+</fieldset>
+<fieldset>
+    <legend>Skills</legend>
+    <label for="skills">Skills:</label>
+<textarea id="skills" name="skills" rows="4" required></textarea>
+</pre>
+</fieldset>   
+<button type="submit">Generate Resume</button>
+</form>
+<div id="resume-Output" class="hidden">
+    <!--resume generate-->
+</div>
+  <script src="index.js"></script>  
+</body>
+</html>
